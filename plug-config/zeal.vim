@@ -1,1 +1,1 @@
-:nnoremap gz :!zeal "<cword>"&<CR><CR>
+:nnoremap gz :!zeal "<cword>"<CR>
