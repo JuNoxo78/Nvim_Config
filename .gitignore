@@ -1,11 +1,1 @@
-# Ignore everything
-/*
-!.gitignore
-!general
-!vim-plug
-!after
-!themes
-!UltiSnips
-!coc-settings.json
-!init.vim
-!README.md
+plugged

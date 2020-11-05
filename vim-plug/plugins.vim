@@ -46,4 +46,6 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'Yggdroot/indentLine' 
     " Comment code
     Plug 'tpope/vim-commentary'
+	" Doc Plugin
+	Plug 'KabbAmine/zeavim.vim'
 call plug#end()
