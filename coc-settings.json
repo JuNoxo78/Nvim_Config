@@ -1,7 +1,7 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["html"],
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  "prettier.trailingComma": "es5",
-  "prettier.tabWidth": 4
+    "coc.preferences.formatOnSaveFiletypes": ["html", "css"],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "prettier.trailingComma": "es5",
+    "prettier.tabWidth": 4
 }
