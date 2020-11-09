@@ -42,7 +42,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'sirver/ultisnips'
 	Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 	Plug 'tpope/vim-surround'
-	Plug 'luochen1990/rainbow'
     " Indent guides
     Plug 'Yggdroot/indentLine' 
     " Comment code
