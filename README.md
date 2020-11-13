@@ -1,2 +1,2 @@
 # Nvim_Config
-This is my config of Nvim, thanks Antonio Sarosi
+This is my Nvim Setup, thanks Antonio Sarosi
