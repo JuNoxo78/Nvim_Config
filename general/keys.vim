@@ -24,9 +24,9 @@ nnoremap .cb :bd!<CR>
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 " Use alt + hjkl to resize windows
-nnoremap <M-j> :resize -2<CR>
-nnoremap <M-k> :resize +2<CR>
-nnoremap <M-h> :vertical resize -2<CR>
-nnoremap <M-l> :vertical resize +2<CR>
+nnoremap <M-k> :resize -2<CR>
+nnoremap <M-j> :resize +2<CR>
+nnoremap <M-l> :vertical resize -2<CR>
+nnoremap <M-h> :vertical resize +2<CR>
 " Cerrar Terminal
 tnoremap <Esc> <C-\><C-n>
