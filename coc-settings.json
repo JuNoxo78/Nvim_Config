@@ -1,5 +1,5 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": ["html", "css"],
+    "coc.preferences.formatOnSaveFiletypes": ["html", "css", "markdown"],
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "prettier.trailingComma": "es5",
