@@ -37,6 +37,8 @@ call plug#begin('~/.config/nvim/plugged')
     " Git integration
     Plug 'mhinz/vim-signify'
 	Plug 'tpope/vim-fugitive'
+	" Live server in vim
+	Plug 'turbio/bracey.vim'
 	" Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'sirver/ultisnips'
