@@ -1,6 +1,3 @@
-" TextEdit might fail if hidden is not set.
-set hidden
-
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
@@ -44,6 +41,11 @@ if has('nvim')
 else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
+" if &filetype == "javascript" || &filetype == "python"
+"   inoremap <c-space> <C-x><C-u>
+" else
+"   inoremap <silent><expr> <c-space> coc#refresh()
+" endif
 
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current
 " position. Coc only does snippet and additional edit on confirm.

@@ -5,6 +5,7 @@ nmap <Leader>q :q<CR>
 nmap <Leader>sq :q!<CR>
 
 inoremap jk <ESC>
+inoremap kj <ESC>
 " TAB in general mode will move to next buffer
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go to prev buffer
@@ -12,19 +13,19 @@ nnoremap <S-TAB> :bprevious<CR>
 
 " Close current buffer
 nnoremap .b :bd<CR>
-nnoremap .cb :bd!<CR>
+nnoremap .vb :bd!<CR>
 " Move selected line / block of text in visual mode
 " shift + k to move up
 " shift + j to move down
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 " Use alt + hjkl to resize windows
-nnoremap <M-k> :resize -2<CR>
-nnoremap <M-j> :resize +2<CR>
+nnoremap <M-,> :resize -2<CR>
+nnoremap <M-o> :resize +2<CR>
 nnoremap <M-l> :vertical resize -2<CR>
 nnoremap <M-h> :vertical resize +2<CR>
 " Cerrar Terminal
-tnoremap <Esc> <C-\><C-n>
+tnoremap jk <C-\><C-n>
 
 function! OpenTerminal()
   " move to right most buffer
@@ -59,4 +60,4 @@ function! OpenTerminal()
     startinsert!
   endif
 endfunction
-nnoremap <C-t> :call OpenTerminal()<CR>
+nnoremap .t :call OpenTerminal()<CR>
