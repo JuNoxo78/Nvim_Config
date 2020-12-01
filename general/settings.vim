@@ -1,7 +1,3 @@
-if !exists('g:vscode')
-    let g:mapleader = "\<Space>"
-endif
-
 set number rnu
 set mouse=a
 set numberwidth=1

@@ -2,8 +2,12 @@
 nmap .n :! node % <CR>
 " Run Python 3.8.5
 nmap .p :! python3 % <CR>
-nmap .x :! gcc % && ./a.out<CR>
-nmap .z :! g++ % && ./a.out<CR>
-nmap .h :! ghc %<CR>
-nmap .ch :!./%<CR>
-
+" Run c and cpp
+nmap .c :!gcc %<CR> 
+nmap .ec :!./a.out<CR>
+nmap .+ :!g++ %<CR>
+nmap .e+ :!./a.out<CR>
+" Compile haskell
+nmap .h :! ghc %<CR> :!./%:r<CR>
+" Run Java
+nnoremap .j :cd %:p:h <CR> :! javac %:t<CR> :! java %:t:r<CR>
