@@ -14,6 +14,8 @@ Plug 'Rigellute/shades-of-purple.vim'
 Plug 'wadackel/vim-dogrun'
 Plug 'jcherven/jummidark.vim'
 Plug 'arzg/vim-colors-xcode'
+Plug 'sainnhe/forest-night'
+Plug 'patstockwell/vim-monokai-tasty'
 " Autopairs
 Plug 'jiangmiao/auto-pairs'
 " File explorer

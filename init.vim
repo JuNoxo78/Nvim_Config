@@ -7,7 +7,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 " Themes
 source $HOME/.config/nvim/general/colors.vim
 source $HOME/.config/nvim/themes/airline.vim
-source $HOME/.config/nvim/themes/xcode.vim
+source $HOME/.config/nvim/themes/material.vim
 
 " Plugins
 source $HOME/.config/nvim/plug-config/nerdtree.vim
@@ -21,3 +21,4 @@ source $HOME/.config/nvim/plug-config/indentLine.vim
 source $HOME/.config/nvim/plug-config/vim-commentary.vim
 source $HOME/.config/nvim/plug-config/zeal.vim
 source $HOME/.config/nvim/plug-config/bracey.vim
+source $HOME/.config/nvim/plug-config/fugitive.vim
