@@ -25,7 +25,7 @@ nnoremap <M-o> :resize +2<CR>
 nnoremap <M-l> :vertical resize -2<CR>
 nnoremap <M-h> :vertical resize +2<CR>
 " Cerrar Terminal
-tnoremap jk <C-\><C-n>
+tnoremap ao <C-\><C-n>
 
 function! OpenTerminal()
   " move to right most buffer
