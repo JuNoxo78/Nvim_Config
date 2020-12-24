@@ -42,7 +42,7 @@ function! OpenTerminal()
     execute "q"
   else
     " open terminal
-    execute "vsp term://fish"
+    execute "vsp term://zsh"
 
     " turn off numbers
     execute "set nonu"
