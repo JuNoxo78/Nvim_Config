@@ -1,5 +1,5 @@
 {
-    "python.linting.enabled": true,
+    "python.linting.enabled": false,
     "prettier.trailingComma": "es5",
     "prettier.tabWidth": 4,
     "eslint.enable": false,

@@ -15,7 +15,7 @@ set showtabline=4
 set formatoptions-=cro
 set hidden
 set fileencoding=utf-8 
-set cursorline
+" set cursorline
 set splitbelow
 set splitright
 set background=dark
