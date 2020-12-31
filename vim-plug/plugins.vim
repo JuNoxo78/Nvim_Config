@@ -5,17 +5,13 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'joshdick/onedark.vim'
     Plug 'kaicataldo/material.vim'
     Plug 'tomasiser/vim-code-dark'
-    Plug 'crusoexia/vim-monokai'
     Plug 'ayu-theme/ayu-vim'
     Plug 'morhetz/gruvbox'
     Plug 'shinchu/lightline-gruvbox.vim'	
     Plug 'dracula/vim', { 'as': 'dracula' }
-    Plug 'Rigellute/shades-of-purple.vim'
     Plug 'wadackel/vim-dogrun'
-    Plug 'jcherven/jummidark.vim'
     Plug 'arzg/vim-colors-xcode'
     Plug 'sainnhe/forest-night'
-    Plug 'patstockwell/vim-monokai-tasty'
     " Autopairs
     Plug 'jiangmiao/auto-pairs'
     " File explorer
@@ -39,13 +35,14 @@ call plug#begin('~/.config/nvim/plugged')
     " Git integration
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
-    " Live server in vim
-    Plug 'turbio/bracey.vim'
+    " SuperTab
+    Plug 'ervandew/supertab'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'sirver/ultisnips'
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     Plug 'tpope/vim-surround'
+    Plug 'mattn/emmet-vim'
     " Indent guides
     Plug 'Yggdroot/indentLine' 
     " Comment code

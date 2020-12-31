@@ -1,4 +1,4 @@
-setlocal tabstop=4  
-setlocal shiftwidth=4  
-setlocal showtabline=4  
+setlocal tabstop=3  
+setlocal shiftwidth=3  
+setlocal showtabline=3  
 
