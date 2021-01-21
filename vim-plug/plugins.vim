@@ -43,6 +43,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     Plug 'tpope/vim-surround'
     Plug 'mattn/emmet-vim'
+    Plug 'majutsushi/tagbar'
     " Indent guides
     Plug 'Yggdroot/indentLine' 
     " Comment code
