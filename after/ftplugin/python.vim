@@ -1,8 +1,3 @@
-au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+setlocal tabstop=3  
+setlocal shiftwidth=3  
+setlocal showtabline=3  

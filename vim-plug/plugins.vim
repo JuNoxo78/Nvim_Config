@@ -44,6 +44,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tpope/vim-surround'
     Plug 'mattn/emmet-vim'
     Plug 'majutsushi/tagbar'
+    Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
+    Plug 'godlygeek/tabular'
     " Indent guides
     Plug 'Yggdroot/indentLine' 
     " Comment code
@@ -52,4 +54,6 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'KabbAmine/zeavim.vim'
     " Movement Smothie
     Plug 'psliwka/vim-smoothie'
+    " Colors
+    Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 call plug#end()
