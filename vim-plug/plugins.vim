@@ -39,13 +39,13 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'ervandew/supertab'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'sirver/ultisnips'
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     Plug 'tpope/vim-surround'
     Plug 'mattn/emmet-vim'
     Plug 'majutsushi/tagbar'
     Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
     Plug 'godlygeek/tabular'
+    Plug 'honza/vim-snippets'
     " Indent guides
     Plug 'Yggdroot/indentLine' 
     " Comment code
