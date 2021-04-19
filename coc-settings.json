@@ -1,8 +1,5 @@
 {
     "python.linting.enabled": false,
-    "prettier.trailingComma": "es5",
-    "prettier.tabWidth": 4,
-    "eslint.enable": false,
     "languageserver": {
         "ccls": {
             "command": "ccls",
@@ -32,5 +29,6 @@
             ],
             "filetypes": ["haskell", "lhaskell"]
         }
-    }
+    },
+    "css.colorDecorators.enable": false
 }
