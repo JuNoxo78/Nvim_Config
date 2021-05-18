@@ -7,7 +7,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 " Themes
 source $HOME/.config/nvim/general/colors.vim
 source $HOME/.config/nvim/themes/airline.vim
-source $HOME/.config/nvim/themes/material.vim
+source $HOME/.config/nvim/themes/gruvbox.vim
 
 " Plugins
 source $HOME/.config/nvim/plug-config/nerdtree.vim
