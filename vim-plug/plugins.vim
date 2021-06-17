@@ -56,4 +56,6 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'psliwka/vim-smoothie'
     " Colors
     Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+    "fzf-git
+    Plug 'stsewd/fzf-checkout.vim'
 call plug#end()

@@ -24,3 +24,4 @@ source $HOME/.config/nvim/plug-config/fugitive.vim
 source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/plug-config/bartag.vim
 source $HOME/.config/nvim/plug-config/hexokinase.vim
+source $HOME/.config/nvim/plug-config/fzf-git.vim
