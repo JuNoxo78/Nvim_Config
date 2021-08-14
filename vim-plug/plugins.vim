@@ -7,7 +7,6 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tomasiser/vim-code-dark'
     Plug 'ayu-theme/ayu-vim'
     Plug 'morhetz/gruvbox'
-    Plug 'shinchu/lightline-gruvbox.vim'	
     Plug 'dracula/vim', { 'as': 'dracula' }
     Plug 'wadackel/vim-dogrun'
     Plug 'arzg/vim-colors-xcode'
