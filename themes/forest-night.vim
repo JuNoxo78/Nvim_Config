@@ -1,1 +1,0 @@
-colorscheme forest-night

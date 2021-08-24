@@ -10,7 +10,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'dracula/vim', { 'as': 'dracula' }
     Plug 'wadackel/vim-dogrun'
     Plug 'arzg/vim-colors-xcode'
-    Plug 'sainnhe/forest-night'
+    Plug 'sainnhe/everforest'
     " Autopairs
     Plug 'jiangmiao/auto-pairs'
     " File explorer
@@ -57,4 +57,5 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
     "fzf-git
     Plug 'stsewd/fzf-checkout.vim'
+    Plug 'SirVer/ultisnips'
 call plug#end()
