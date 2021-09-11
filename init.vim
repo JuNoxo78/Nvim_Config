@@ -7,7 +7,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 " Themes
 source $HOME/.config/nvim/general/colors.vim
 source $HOME/.config/nvim/themes/airline.vim
-source $HOME/.config/nvim/themes/dracula.vim
+source $HOME/.config/nvim/themes/codedark.vim
 
 " Plugins
 source $HOME/.config/nvim/plug-config/nerdtree.vim
@@ -24,3 +24,4 @@ source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/plug-config/bartag.vim
 source $HOME/.config/nvim/plug-config/hexokinase.vim
 source $HOME/.config/nvim/plug-config/fzf-git.vim
+source $HOME/.config/nvim/plug-config/ultisnips.vim

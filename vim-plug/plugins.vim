@@ -51,8 +51,6 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tpope/vim-commentary'
     " Doc Plugin
     Plug 'KabbAmine/zeavim.vim'
-    " Movement Smothie
-    Plug 'psliwka/vim-smoothie'
     " Colors
     Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
     "fzf-git
